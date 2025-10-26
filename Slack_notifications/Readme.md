@@ -24,7 +24,7 @@ You will obtain:
 - **Channel ID** — The unique identifier of the target channel  
 
 These values are added in your Slack Block configuration.
-
+- ![Slack Block Params](Assets/SlackBlock.png)
 ---
 
 ## 🪄 Step-by-Step Setup

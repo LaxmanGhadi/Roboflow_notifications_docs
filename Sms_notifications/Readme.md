@@ -26,7 +26,7 @@ These details are used to configure the Twilio block within your Roboflow workfl
 - Sign in using your **Google account** or create a new one
 - Twilio will ask for a **phone number** — this is mandatory  
   → You’ll receive an **OTP** to verify it
-
+![Slack Block Params](Assets/SlackBlock.png)
 ---
 
 ### 2. Complete Account Setup

@@ -66,10 +66,13 @@ These values are added in your Slack Block configuration.
 ---
 
 ### 5. Get Channel ID
-- Go to your Slack workspace.  
+- Go to your Slack workspace .
 - Select or create a **channel** for notifications.  
+- ![SlackDashboardChanel](Assets/SlackDashboardChanel.png)
 - Click the **three dots → View Channel Details**.  
-- Scroll down to find the **Channel ID** at the bottom.  
+- ![SlackDashboardChanelAbout](Assets/SlackDashboardChanelAbout.png)
+- Scroll down to find the **Channel ID** at the bottom. 
+- ![SlackChanelCode](Assets/SlackChanelCode.png) 
   → Use this ID in your Slack Block configuration.
 
 ---
@@ -77,13 +80,14 @@ These values are added in your Slack Block configuration.
 ### 6. Add Bot to Channel
 - In the Slack channel, click **Integrations → Add an App**.  
 - Select your newly created bot.  
+- ![SlackAddbot](Assets/SlackAddbot.png)
 - Once added, it will appear as a **member of the channel** and can send messages.
 
 ---
 
 ## 💬 Sending Messages
 - Add message data in the **Message Parameters** section of the Slack Block.  
-- ![SlackMessageParams](Assets/SlackMessageParams.png)
+- ![SlackMessageParams](Assets/SlackMessageParams.png)  
 - Each parameter will have a **name** and **value**.  
 - To reference a property from previous steps:
   ```text

@@ -21,19 +21,21 @@ These details are used to configure the Twilio block within your Roboflow workfl
 ## 🪄 Step-by-Step Setup
 
 ### 1. Create a Twilio Account
-- Go to [Twilio Signup Page](https://www.twilio.com/try-twilio)  
+- Go to [Twilio Signup Page](https://www.twilio.com/try-twilio)
+-- ![S1TwilioSearch](Assets/S1TwilioSearch.png)  
 - Click **Start for Free**
 - Sign in using your **Google account** or create a new one
 - Twilio will ask for a **phone number** — this is mandatory  
   → You’ll receive an **OTP** to verify it
-- ![Slack Block Params](Assets/SlackBlock.png)
 ---
 
 ### 2. Complete Account Setup
 - Select options that best describe your use case  
 - Once done, Twilio will generate your:
+-- ![S2TwilioOptions](Assets/S2TwilioOptions.png)  
   - **Account SID**
   - **Auth Token**  
+-- ![S3TwilioParams](Assets/S3TwilioParams.png)  
 These credentials will be required for Roboflow configuration.
 
 ---
@@ -49,6 +51,7 @@ These credentials will be required for Roboflow configuration.
 To send messages, Twilio requires verification of destination numbers.
 
 1. Go to **Messaging → Verified Caller IDs**
+-- ![S4TwilioNumberVerified](Assets/S4TwilioNumberVerified.png) 
 2. Check the list of active verified numbers
 3. If you want to send SMS to a new number:
    - Add the number under **Verified Caller IDs**
